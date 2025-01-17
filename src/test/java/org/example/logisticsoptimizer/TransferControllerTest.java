@@ -40,12 +40,12 @@ public class TransferControllerTest {
 
     @Test
     void testExactFit() throws Exception {
-//        TransferRequest request = new TransferRequest();
-//        request.setMaxWeight(15);
-//        request.setAvailableTransfers(List.of(
-//                new TransferRequest.Transfer(5, 10),
-//                new TransferRequest.Transfer(10, 20)
-//        ));
+        TransferRequest request = new TransferRequest();
+        request.setMaxWeight(15);
+        request.setAvailableTransfers(List.of(
+                new TransferRequest.Transfer(5, 10),
+                new TransferRequest.Transfer(10, 20)
+        ));
 
         TransferResponse response = new TransferResponse(
                 List.of(

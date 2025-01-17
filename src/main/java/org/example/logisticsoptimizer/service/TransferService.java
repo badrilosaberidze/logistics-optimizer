@@ -5,8 +5,6 @@ import org.example.logisticsoptimizer.dto.TransferRequest;
 import org.example.logisticsoptimizer.dto.TransferResponse;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 @Service
